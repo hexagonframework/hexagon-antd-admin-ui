@@ -26,6 +26,9 @@
     "no-eval": 0,
     "no-unused-vars": [2, { "ignoreRestSiblings": true }],
     "no-underscore-dangle": 0,
+    "no-plusplus": "off",
+    "no-continue": "off",
+    "no-mixed-operators":"off",
     "global-require": 0
   },
   "parser": "babel-eslint",

@@ -1,8 +1,8 @@
 import React from 'react'
+import { Table, Row, Col } from 'antd'
 import { Iconfont } from '../../../components'
-import { Table, Row, Col, Icon } from 'antd'
 import styles from './index.less'
-import './emoji.js'
+import './emoji'
 
 const colorfulIcons = ['boluo', 'baixiangguo', 'chengzi', 'boluomei', 'caomei', 'dayouzi', 'chelizi', 'fanqie', 'hamigua', 'ganlan',
   'juzi', 'heimei', 'huolongguo', 'hongmei', 'lizi', 'lanmei', 'mangguo', 'mihoutao', 'longyan', 'mugua', 'lizi1', 'ningmeng']
@@ -100,15 +100,15 @@ const IcoPage = () => <div className="content-inner">
   <div style={{ margin: '16px 0', lineHeight: 2 }}>
     <p>
       <a href="http://www.iconfont.cn/user/detail?uid=116813">何阿酥</a> colorful fruit icon
-      <a href="http://www.iconfont.cn/collections/detail?cid=4014" target="_blank"> http://www.iconfont.cn/collections/detail?cid=4014</a>
+      <a href="http://www.iconfont.cn/collections/detail?cid=4014" target="_blank" rel="noopener noreferrer"> http://www.iconfont.cn/collections/detail?cid=4014</a>
     </p>
     <p>
       <a href="http://www.iconfont.cn/user/detail?uid=496384">ColinXu</a> colorful 'tsundere' emoji icon
-      <a href="http://www.iconfont.cn/collections/detail?cid=4116" target="_blank"> http://www.iconfont.cn/collections/detail?cid=4116</a>
+      <a href="http://www.iconfont.cn/collections/detail?cid=4116" target="_blank" rel="noopener noreferrer"> http://www.iconfont.cn/collections/detail?cid=4116</a>
     </p>
     <p>
       <a href="http://www.iconfont.cn/user/detail?uid=116813">咕噜小莫莫</a> colorful 'face cute' emoji icon
-      <a href="http://www.iconfont.cn/collections/detail?cid=4268" target="_blank"> http://www.iconfont.cn/collections/detail?cid=4268</a>
+      <a href="http://www.iconfont.cn/collections/detail?cid=4268" target="_blank" rel="noopener noreferrer"> http://www.iconfont.cn/collections/detail?cid=4268</a>
     </p>
   </div>
 </div>

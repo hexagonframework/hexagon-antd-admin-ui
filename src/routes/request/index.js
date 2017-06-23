@@ -1,7 +1,4 @@
 import React from 'react'
-import styles from './index.less'
-import Mock from 'mockjs'
-import { request, config } from '../../utils'
 import {
   Row,
   Col,
@@ -10,6 +7,9 @@ import {
   Input,
   Button,
 } from 'antd'
+import Mock from 'mockjs'
+import styles from './index.less'
+import { request, config } from '../../utils'
 
 const { api } = config
 const { dashboard, users, userLogin, user, v1test, v2test } = api

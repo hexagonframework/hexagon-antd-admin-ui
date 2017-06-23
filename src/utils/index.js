@@ -1,9 +1,9 @@
+import lodash from 'lodash'
+import classnames from 'classnames'
 import config from './config'
 import menu from './menu'
 import request from './request'
-import classnames from 'classnames'
 import { color } from './theme'
-import lodash from 'lodash'
 
 // 连字符转驼峰
 String.prototype.hyphenToHump = function () {
@@ -99,7 +99,7 @@ const arrayToTree = (array, id = 'id', pid = 'pid', children = 'children') => {
   return result
 }
 
-module.exports = {
+export default {
   config,
   menu,
   request,
