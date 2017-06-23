@@ -1,2 +1,2 @@
 # hexagon-antd-admin-ui
-Antd Admin UI for hexagon framework.
+React Admin Boilerplate for hexagon framework, with React + Ant Design.
