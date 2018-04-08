@@ -9,7 +9,7 @@ export default {
   },
 
   effects: {
-    * login ({
+    *login ({
       payload,
     }, { put, call }) {
       yield put({ type: 'showLoginLoading' })
